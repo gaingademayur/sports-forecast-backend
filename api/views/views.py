@@ -31,6 +31,8 @@ class Warehouse:
 
 
 
+
+
     @api_view(['POST'])
     def addNewProduct(request):
         if(request.method == 'POST'):
