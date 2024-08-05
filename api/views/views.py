@@ -29,10 +29,6 @@ class Warehouse:
 
         return JsonResponse(data_list, safe=False)
 
-
-
-
-
     @api_view(['POST'])
     def addNewProduct(request):
         if(request.method == 'POST'):
